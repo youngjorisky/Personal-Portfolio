@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./assets/wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.personal_image {
+  width: 750px;
+  position: absolute;
+  right: 0%;
+}
+
+.upper h1 {
+  color: white;
+  font-size: 6rem;
+  position: absolute;
+}
