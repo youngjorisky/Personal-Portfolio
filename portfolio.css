@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Momo Trust Display", sans-serif;
+  color: white;
 }
 
 *,
@@ -12,6 +13,7 @@ html {
 body {
   padding: 50px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: rgb(46, 46, 133);
 }
 
 header {
@@ -44,4 +46,70 @@ header {
   position: absolute;
   top: 5%;
   right: 15%;
+}
+
+.about {
+  display: grid;
+  position: relative;
+  grid-template-columns: 50% 40%;
+  gap: 100px;
+}
+
+.about-right {
+}
+
+.about-right img {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-container {
+  position: relative;
+  border-radius: 20%;
+  overflow: hidden;
+}
+.background-container {
+  position: relative;
+}
+
+.background-container .shape {
+  position: absolute;
+  height: 130px;
+  border-radius: 50px;
+  transform: rotate(40deg);
+}
+
+.background-container .shape-1 {
+  width: 400px;
+  top: -145px;
+  background-color: hsl(0, 100%, 50%, 0.1);
+}
+
+.background-container .shape-2 {
+  width: 500px;
+  top: -400px;
+  right: 0px;
+  background-color: hsl(180, 100%, 50%, 0.1);
+}
+
+.background-container .shape-3 {
+  width: 700px;
+  bottom: 150px;
+  right: -25px;
+  background-color: hsl(300, 76%, 72%, 0.1);
+}
+
+.background-container .shape-4 {
+  width: 270px;
+  bottom: 400px;
+  right: 50px;
+  background-color: hsl(120, 59%, 41%, 0.1);
+}
+
+.background-container .shape-5 {
+  width: 150px;
+  top: -100px;
+  left: -40px;
+  background-color: hsl(25, 75%, 47%, 0.1);
 }
